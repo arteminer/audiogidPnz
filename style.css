@@ -84,13 +84,20 @@ p{
 
 .btn{
     height: 50px;
-    width: 90%;
     background-color: #D9D9D9;
     border-radius: 20px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.tg-btn{
+    width: 90%;
+}
+
+.info-btn{
+    width: 80%;
 }
 
 .main-telegram{
