@@ -8,27 +8,12 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
-h1{
-    font-size: 24px;
+a{
+    text-decoration: none;
+    color: black;
 }
 
-p{
-    font-size: 16px;
-}
-
-.main-container{
-    width: 100%;
-    height: auto;
-    background-image: url(images/main-bg.png);
-    background-size: cover;
-    background-position: 40%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
+/* header section */
 
 .main-header{
     height: 60px;
@@ -56,6 +41,28 @@ p{
 
 .main-header a{
     font-size: 12px;
+}
+
+/* index section */
+
+.main-container{
+    width: 100%;
+    height: auto;
+    background-image: url(images/main-bg.png);
+    background-size: cover;
+    background-position: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 24px;
+}
+
+p{
+    font-size: 16px;
 }
 
 .main-main{
@@ -150,6 +157,80 @@ p{
 .telegram-link *{
     text-align: center;
 }
+
+/* recs section */
+
+.records{
+    display: none;
+}
+
+.main-recs{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recbox{
+    margin-top: 25px;
+
+    width: 90%;
+    height: 250px;
+
+    background-color: rgba(217, 217, 217, 0.36);
+
+    border-radius: 9px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.recbox:last-child{
+    margin-bottom: 25px;
+}
+
+.text-box{
+    width: 100%;
+}
+
+.textmap-box{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textmap-box h1{
+    font-size: 15px;
+    max-width: 70%;
+}
+
+.textmap-box p{
+    max-width: 70%;
+    font-size: 15px;
+}
+
+.audio-box{
+    width: 90%;
+    border-radius: 7px;
+}
+
+.map{
+    width: 40%;
+    height: 145px;
+
+    background-color: #D9D9D9;
+
+    border-radius: 12px;
+}
+
+.map *{
+    border-radius: 12px;
+}
+/* footer section */
 
 .footer-bottom{
     display: flex;
